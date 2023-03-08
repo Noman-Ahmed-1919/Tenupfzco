@@ -1,38 +1,693 @@
+@font-face { font-family: "Spartan"; 
+  src: url('./fonts/League\ Spartan\ Font.ttf'); } 
+
+
+
 .App {
+  max-width: 1700px;
+  overflow: hidden;
+}
+
+
+
+.img1{
+width: 100%;
+}
+
+.butns{
+display: flex;
+}
+#secpadding{
+padding-top: 45px;
+}
+.sec1p{
+  color: #0938C2;
+  font-size: 28px;
+  font-family: "Spartan"
+}
+.sec1h1{
+font-size: 55px;
+font-family: "Spartan"
+}
+
+.btn1{
+background-color: #0938C2;
+color: white;
+border-radius: 40px;
+outline: none;
+border: none;
+padding: 10px 38px;
+}
+
+.btn2{
+ background-color:  #5CE5F5;
+ color: #0938C2;
+ border-radius: 40px;
+ outline: none;
+border: none;
+padding: 10px 38px;
+ margin-left: 10px;
+}
+
+.sech2{
+  text-align: center;
+  font-family: "Spartan"
+}
+.img2{
+  width: 100%;
+}
+.img3{
+  width: 100%;
+  height: 355px;
+}
+#sec2{
+  margin-top: 80px;
+}
+
+.sec2p{
+  font-size: 26px;
+  text-align: center;
+  
+
+
+}
+.sec2pp{
+  font-size: 12px;
+  padding-top: 20px;
+}
+.sec2h1h1{
+  position: relative;
+  top: 270px;
+  left: 93px;
+  font-size: 44px;
+  font-family: "Spartan"
+
+}
+.sec2div2{
+  margin-top: -97px;
+}
+.sec5h1{
+  text-align: center;
+  font-family: "Spartan"
+
+}
+.sec5p{
+  text-align: center;
+}
+#sec5part1{
+  margin-top: 80px;
+}
+#sec5{
+  margin-top: 40px;
+  background-color: #b6ecf1;
+  /* opacity: 0.5; */
+  border-radius: 245px 0px 0px;
+  /* padding-bottom: 30px; */
+  border-top-left-radius: 284px;
+  border-bottom-left-radius: 284px;
+  height: 485px;
+  margin-bottom: 40px;
+  
+}
+#back{
+  /* background-image: url(./images/sec5back.png);
+  background-position: center;
+  background-repeat: no-repeat; 
+  
+   background-size: cover; */
+}
+.sec5h1h1h1{
+  padding-top: 40px;
+  color: #5B5D6D;
+  padding-left: 239px;
+  font-family: "Spartan"
+
+}
+
+.sec5pppp{
+  font-size: 42px;
+  padding-left: 239px;
+  color: black;
+  line-height: 48px;
+}
+.sec5keep{
+  font-size: 42px;
+  padding-left: 239px;
+  color: black;
+  padding-bottom: 20px;
+}
+.man{
+  display: flex;
+  padding-left: 239px;
+}
+.round{
+  display: flex;
+    background-color: white;
+    border-radius: 86px;
+    padding: 17px 42px;
+}
+.left{
+  padding-top: 13px;
+}
+.blue{
+  background-color: #0938C2;
+  border-radius: 40px;
+  margin-left: 20px;
+  padding: 10px 12px;
+}
+#twobtn{
+  display: flex;
+  justify-content: space-between;
+}
+
+.amen{
+  padding-top: 34px;
+    line-height: 1px;
+    margin-left: 10px;
+}
+.amenp{
+  margin-left: 05px;
+}
+
+#sec7{
+  margin-top: 80px;
+ 
+
+}
+#sec7small{
+  background-color: #0938C2;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+.ul{
+  color: white;
+  padding-top: 50px;
+}
+.smimages{
+  padding-top: 40px;
+}
+.discord{
+  margin-left: 20px;
+}
+.insta{
+  margin-left: 20px;
+}
+.footerp{
+  text-align: center;
+  color: white;
+  background-color: #0938C2;
+  padding-bottom: 1px;
+  margin-bottom: 0px;
+}
+
+#whitefot{
+  color: white;
+    padding-left: 288px;
+}
+#whitefo{
+  color: white;
+  padding-left: 140px;
+  
+}
+.sec6h1{
+  text-align: center;
+  font-family: "Spartan"
+
+}
+.sec6p{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#sec6{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.divh1{
+  font-weight: 800;
+  padding-top: 10px;
+  text-align: center;
+  font-family: "Spartan"
+
+}
+.divp{
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#mangap{
+  margin-top: 74px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sec4h1{
+  text-align: center;
+  font-family: "Spartan"
+
+}
+.sec4p{
+  text-align: center;
+}
+#sec4{
+  background-color: #0938C2;
+
+
+}
+.divv{
+  background-color: cyan;
+  height: 10px;
+}
+
+#flex{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sec4part{
+  margin-top: 80px;
+}
+
+.sec3h1{
+  text-align: center;
+  font-family: "Spartan"
+
+}
+.sec3p{
+  text-align: center;
+}
+
+.step1{
+  display: flex;
+width: 100%;
+border-radius: 37px;
+filter: drop-shadow(0px 6px 8.5px rgba(0,0,0,0.16));
+background-color: #ffffff;
+padding: 33px 26px;
+margin-top: 20px;
+
+}
+.step2{
+  display: flex;
+width: 100%;
+border-radius: 37px;
+filter: drop-shadow(0px 6px 8.5px rgba(0,0,0,0.16));
+background-color: #ffffff;
+padding: 33px 26px;
+margin-top: 20px;
+
+}
+.step3{
+  display: flex;
+width: 100%;
+border-radius: 37px;
+filter: drop-shadow(0px 6px 8.5px rgba(0,0,0,0.16));
+background-color: #ffffff;
+padding: 33px 26px;
+margin-top: 20px;
+
+}
+
+.h4p{
+  margin-left: 19px;
+  margin-top: 10px;
+
+}
+.ph4{
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+#sec3{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#btn1header1{
+  color: #0938C2;
+ font-weight: 700;
+ margin-right: 20px;
+}
+#btn1header2{
+  color: #0938C2;
+  background-color: cadetblue;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: 700;
+}
+
+#btnnns{
+  display: flex;
+}
+
+#headerrnava{
+  margin-left: 120px;
+}
+
+#abouta{
+  margin-left: 30px;
+}
+
+#hide{
+  padding-bottom: 80px;
+}
+#gape{
+  padding-left: 30px;
+}
+
+
+
+
+@media screen and (max-width: 992px) and (min-width: 0px){
+
+
+  #flex{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .comgape{
+    margin-top: 40px;
+  }
+
+  #gape {
+    text-align: center;
+}
+#whitefot {
   color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 0px;
+}
+#whitefo {
+  color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 0px;
+}
+#sec7small {
+  background-color: #0938C2;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
 }
 
-.App-link {
-  color: #61dafb;
+
+@media screen and (max-width: 1200px) and (min-width: 992px){
+
+  .sec1h1 {
+    font-size: 46px;
+    font-family: "Spartan";
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.sec2pp {
+  font-size: 10px;
+  padding-top: 20px;
+}
+#abouta {
+  margin-left: 19px;
+}
+#headerrnava {
+  margin-left: 48px;
+}
+
+}
+
+
+@media screen and (max-width: 992px) and (min-width: 200px){
+
+#tablet{
+  margin-top: 65px;
+}
+#headerrnava {
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.sec2pp {
+  font-size: 12px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) and (min-width: 768px){
+
+
+
+.sec5pppp {
+  font-size: 28px;
+  padding-left: 239px;
+  color: black;
+  line-height: 36px;
+}
+.sec5keep {
+  font-size: 31px;
+  padding-left: 239px;
+  color: black;
+  padding-bottom: 20px;
+}
+.round {
+  display: flex;
+  background-color: white;
+  border-radius: 86px;
+  padding: 34px 24px;
+}
+.blue {
+  background-color: #0938C2;
+  border-radius: 40px;
+  margin-left: 20px;
+  padding: 7px 12px;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 768px) and (min-width: 568px){
+
+  .sec5h1h1h1 {
+    padding-top: 40px;
+    color: #5B5D6D;
+    padding-left: 100px;
+    font-family: "Spartan";
+}
+
+  .sec5pppp {
+    font-size: 28px;
+    padding-left: 100px;
+    color: black;
+    line-height: 36px;
   }
-  to {
-    transform: rotate(360deg);
+  .sec5keep {
+    font-size: 31px;
+    padding-left: 100px;
+    color: black;
+    padding-bottom: 20px;
   }
+  .round {
+    display: flex;
+    background-color: white;
+    border-radius: 86px;
+    padding: 32px 18px;
+  }
+  .blue {
+    background-color: #0938C2;
+    border-radius: 40px;
+    margin-left: 20px;
+    padding: 7px 12px;
+  }
+  #twobtn {
+    display: flex;
+    justify-content: space-around;
+}
+.man {
+  display: flex;
+  padding-left: 100px;
+}
+  }
+
+
+  @media screen and (max-width: 568px) and (min-width: 414px){
+
+    .sec5h1h1h1 {
+      padding-top: 40px;
+    color: #5B5D6D;
+    font-family: "Spartan";
+    font-size: 27px;
+    text-align: center;
+    padding-left: 125px;
+  }
+  
+    .sec5pppp {
+      font-size: 22px;
+    padding-left: 100px;
+    color: black;
+    line-height: 27px;
+    }
+    .sec5keep {
+      font-size: 27px;
+      padding-left: 100px;
+      color: black;
+      padding-bottom: 20px;
+    }
+    .round {
+      display: none;
+      background-color: white;
+      border-radius: 86px;
+      padding: 32px 18px;
+    }
+    .blue {
+      background-color: #0938C2;
+      border-radius: 40px;
+      margin-left: 20px;
+      padding: 7px 12px;
+    }
+    #twobtn {
+      display: flex;
+      justify-content: space-around;
+  }
+  .man {
+    display: flex;
+    padding-left: 100px;
+  }
+    }
+
+
+
+    
+  @media screen and (max-width: 414px) and (min-width: 200px){
+
+    .sec5h1h1h1 {
+      padding-top: 40px;
+    color: #5B5D6D;
+    font-family: "Spartan";
+    font-size: 22px;
+    text-align: center;
+    padding-left: 125px;
+  }
+  
+    .sec5pppp {
+      font-size: 17px;
+      padding-left: 100px;
+      color: black;
+      line-height: 22px;
+    }
+    .amen {
+      padding-top: 12px;
+      line-height: 14px;
+      margin-left: 10px;
+  }
+  .amenp {
+    margin-left: 05px;
+    padding-top: -11px;
+    line-height: 15px;
+}
+    .sec5keep {
+      font-size: 22px;
+      padding-left: 100px;
+      color: black;
+      padding-bottom: 20px;
+    }
+    .round {
+      display: none;
+      background-color: white;
+      border-radius: 86px;
+      padding: 32px 18px;
+    }
+    .blue {
+      background-color: #0938C2;
+      border-radius: 40px;
+      margin-left: 20px;
+      padding: 7px 12px;
+    }
+    #twobtn {
+      display: flex;
+      justify-content: space-around;
+  }
+  .man {
+    display: flex;
+    padding-left: 100px;
+  }
+    }
+
+
+
+    
+    @media screen and (max-width: 768px) and (min-width: 568px){
+
+    .sec2h1h1 {
+      position: relative;
+      top: 270px;
+      left: 54px;
+      font-size: 38px;
+      font-family: "Spartan";
+  }
+
+}
+@media screen and (max-width: 568px) and (min-width: 200px){
+
+  .sec2h1h1 {
+    position: relative;
+    top: 263px;
+    left: 43px;
+    font-size: 26px;
+    font-family: "Spartan";
+}
+
+}
+
+
+@media screen and (max-width: 568px) and (min-width: 200px){
+
+#samsung{
+  text-align: -webkit-center;
+}
+
+  .step1 {
+    display: block;
+    width: 72%;
+    border-radius: 37px;
+    filter: drop-shadow(0px 6px 8.5px rgba(0,0,0,0.16));
+    background-color: #ffffff;
+    padding: 33px 26px;
+    margin-top: 20px;
+    text-align: center;
+}
+.step2 {
+  display: block;
+  width: 72%;
+  border-radius: 37px;
+  filter: drop-shadow(0px 6px 8.5px rgba(0,0,0,0.16));
+  background-color: #ffffff;
+  padding: 33px 26px;
+  margin-top: 20px;
+  text-align: center;
+}
+.step3 {
+  display: block;
+  width: 72%;
+  border-radius: 37px;
+  filter: drop-shadow(0px 6px 8.5px rgba(0,0,0,0.16));
+  background-color: #ffffff;
+  padding: 33px 26px;
+  margin-top: 20px;
+  text-align: center;
+}
+
 }
